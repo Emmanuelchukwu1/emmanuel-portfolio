@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Emmanuel Chukwuma.">
+  <title>Contact | Emmanuel Chukwuma</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Emmanuel <span>Chukwuma</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Academic Planner</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Contact</h2>
+        <p class="lead">Feel free to reach out for collaborations, enquiries, or just to say hello.</p>
+      </div>
+
+      <div class="contact-grid fade-in">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            Whether it is about culinary work, media projects, or simply exchanging ideas, 
+            I am open to thoughtful conversations.
+          </p>
+          <div class="detail">
+            <strong>Email:</strong>
+            <a href="mailto:echuks222@gmail.com">echuks222@gmail.com</a>
+          </div>
+          <div class="detail">
+            <strong>Phone:</strong>
+            <a href="tel:+2348110742801">811 074 2801</a>
+          </div>
+          <div class="detail">
+            <strong>Location:</strong>
+            <span>Nigeria</span>
+          </div>
+        </div>
+
+        <div>
+          <div id="formSuccess" class="form-success"></div>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+              <span class="error-msg">Please enter your name.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <span class="error-msg">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Digits only" autocomplete="tel">
+              <span class="error-msg">Phone number must contain only digits.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+              <span class="error-msg">Please write a message.</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Emmanuel Chukwuma. All rights reserved.</p>
+      <p>Emmanuel Chukwuma</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
